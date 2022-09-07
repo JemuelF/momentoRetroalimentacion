@@ -79,3 +79,7 @@ Con el análisis de la matriz de confusión en conjunto con el error y el porcen
 ### Gráfica de resultados de matriz de confusión (Regresión lineal)
 <img width="523" alt="image" src="https://user-images.githubusercontent.com/71990312/189001742-cdab2aeb-3bda-49ff-920f-5cb58b8c6f7c.png">
 
+Con el resultado de la matriz de confusión podemos ver que aunque nuestro modelo parecía ser bueno por el error tan bajo que teníamos, en realidad es un modelo que no sirve, ya que no es capaz de dar un valor positivo, ni verdadero, ni falso, por lo tanto nuestro modelo solo está dando valores negativos y dado a que hay más valores negativos en nuestro set de validación, pareciera ser bueno
+
+## Conclusión de la comparación de ambos modelos
+Podemos ver que aunque el modelo de regresión lineal parece ser bueno gracias a algunos indicadores como el del error y el porcentaje de predicciones acertadas, la matriz de confusión nos permite saber que no es bueno y es algo que se podía esperar, ya que no está diseñado para dar valores binarios. En cambio, nuestro modelo de clasificación es bueno y en la matriz de confusión podemos ver que sí llega a los valores positivos, aunque como se mencionó en el análisis individual del modelo, puede ser bueno o malo dependiendo del contexto en el que se use, el modelo es mejor que el de regresión lineal debido a que sí está diseñado para devolvernos valores binarios.
