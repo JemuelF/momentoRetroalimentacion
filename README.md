@@ -28,4 +28,6 @@ El objetivo de mi análisis es comparar dos modelos diferentes para un mismo dat
 ### Revisamos el mapa de calor con las variables finales
 <img width="419" alt="image" src="https://user-images.githubusercontent.com/71990312/188989557-8e5ebc1b-1356-42a3-beca-33c19ab02eb1.png">
 
+### Dividimos los datos en set de entrenamiento(60%), validación(20%),test(20%) de manera aleatoria
+<img width="912" alt="image" src="https://user-images.githubusercontent.com/71990312/188990723-3fb7d0db-9f81-4d79-aef7-31e3b6fddc3f.png">
 
