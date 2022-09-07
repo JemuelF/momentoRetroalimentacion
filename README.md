@@ -31,3 +31,23 @@ El objetivo de mi análisis es comparar dos modelos diferentes para un mismo dat
 ### Dividimos los datos en set de entrenamiento(60%), validación(20%),test(20%) de manera aleatoria
 <img width="912" alt="image" src="https://user-images.githubusercontent.com/71990312/188990723-3fb7d0db-9f81-4d79-aef7-31e3b6fddc3f.png">
 
+## Entrenamiento del modelo
+### Creamos nuestra función h y nuestra función de costo
+<img width="1144" alt="image" src="https://user-images.githubusercontent.com/71990312/188995937-0bd951b1-662a-4355-b516-a7cdb46da3c7.png">
+
+### Entrenamos nuestro modelo con un alpha de 5 y las tethas inicializadas en 1
+<img width="1060" alt="image" src="https://user-images.githubusercontent.com/71990312/188996010-3e493827-5266-4519-8e82-b7ea9688b9d4.png">
+
+### Revisamos el error de nuestro modelo
+<img width="945" alt="image" src="https://user-images.githubusercontent.com/71990312/188996092-b6f1e656-6f63-4e66-911e-029f82962f7c.png">
+El error con el set de entrenamiento es bastante bajo y con el set de validación sigue siendo bajo, por lo que podemos considerar nuestro modelo como uno bueno, pero analizaremos más cosas para poder asegurarnos de eso
+
+### Matriz de confusión
+<img width="1099" alt="image" src="https://user-images.githubusercontent.com/71990312/188996240-1fd10ab6-d54b-46e6-94aa-2e9f2302ed32.png">
+
+### Gráfica de predicciones correctas contra incorrectas
+<img width="1011" alt="image" src="https://user-images.githubusercontent.com/71990312/188996294-85f9ac17-400a-4e85-8f89-2c4172fddb84.png">
+
+### Gráfica de resultados de matriz de confusión
+<img width="625" alt="image" src="https://user-images.githubusercontent.com/71990312/188996348-36f16d77-eee4-47ed-8a56-cef3704c4155.png">
+
