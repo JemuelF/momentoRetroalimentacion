@@ -52,3 +52,5 @@ A pesar de que este análisis nos sirve para justificar el modelo, revisaremos m
 ### Gráfica de resultados de matriz de confusión
 <img width="625" alt="image" src="https://user-images.githubusercontent.com/71990312/188996348-36f16d77-eee4-47ed-8a56-cef3704c4155.png">
 
+Con el análisis de la matriz de confusión en conjunto con el error y el porcentaje de predicciones correctas, podemos ver que es un muy buen modelo para predecir cuando un paciente no tendrá un derrame, y es un modelo aceptable para cuando un paciente sí tendrá un derrame, dependiendo de en que casos de uso se necesite el modelo puede que esto sea algo bueno o que se requiera modificar el modelo
+
