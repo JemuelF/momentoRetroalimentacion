@@ -40,7 +40,8 @@ El objetivo de mi análisis es comparar dos modelos diferentes para un mismo dat
 
 ### Revisamos el error de nuestro modelo
 <img width="945" alt="image" src="https://user-images.githubusercontent.com/71990312/188996092-b6f1e656-6f63-4e66-911e-029f82962f7c.png">
-El error con el set de entrenamiento es bastante bajo y con el set de validación sigue siendo bajo, por lo que podemos considerar nuestro modelo como uno bueno, pero analizaremos más cosas para poder asegurarnos de eso
+El error con el set de entrenamiento es bastante bajo y con el set de validación sigue siendo bajo, por lo que podemos considerar nuestro modelo como uno bueno, ya que tiene balance, no existe ni underfitting ni overfitting.
+A pesar de que este análisis nos sirve para justificar el modelo, revisaremos más información para darle mayor validez a nuestro modelo.
 
 ### Matriz de confusión
 <img width="1099" alt="image" src="https://user-images.githubusercontent.com/71990312/188996240-1fd10ab6-d54b-46e6-94aa-2e9f2302ed32.png">
