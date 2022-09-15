@@ -83,3 +83,9 @@ Con el resultado de la matriz de confusión podemos ver que aunque nuestro model
 
 ## Conclusión de la comparación de ambos modelos
 Podemos ver que aunque el modelo de regresión lineal parece ser bueno gracias a algunos indicadores como el del error y el porcentaje de predicciones acertadas, la matriz de confusión nos permite saber que no es bueno y es algo que se podía esperar, ya que no está diseñado para dar valores binarios. En cambio, nuestro modelo de clasificación es bueno y en la matriz de confusión podemos ver que sí llega a los valores positivos, aunque como se mencionó en el análisis individual del modelo, puede ser bueno o malo dependiendo del contexto en el que se use, el modelo es mejor que el de regresión lineal debido a que sí está diseñado para devolvernos valores binarios.
+
+## Ahora trataremos de mejorar el modelo analizando el sesgo y la varianza
+<img width="451" alt="image" src="https://user-images.githubusercontent.com/71990312/190496004-f0d6ac41-7df9-4a81-9e50-c25a11134936.png">
+Podemos ver que tiene una varianza baja pero un sesgo no muy bajo, lo que significa que los resultados son estables pero no tan acertados, como en la siguiente imagen
+<img width="124" alt="image" src="https://user-images.githubusercontent.com/71990312/190496242-071eb0f9-2731-4172-9300-ef20c239b83e.png">
+
