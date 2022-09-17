@@ -89,3 +89,4 @@ Podemos ver que aunque el modelo de regresión lineal parece ser bueno gracias a
 Podemos ver que tiene una varianza baja pero un sesgo no muy bajo, lo que significa que los resultados son estables pero no tan acertados, como en la siguiente imagen
 <img width="124" alt="image" src="https://user-images.githubusercontent.com/71990312/190496242-071eb0f9-2731-4172-9300-ef20c239b83e.png">
 
+## Modificaremos las variables de entrada del modelo
