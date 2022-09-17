@@ -90,3 +90,32 @@ Podemos ver que tiene una varianza baja pero un sesgo no muy bajo, lo que signif
 <img width="124" alt="image" src="https://user-images.githubusercontent.com/71990312/190496242-071eb0f9-2731-4172-9300-ef20c239b83e.png">
 
 ## Modificaremos las variables de entrada del modelo
+Agregamos la variable Nivel de glucosa, que en el mapa de calor también mostraba una ligera correlación pero no suficiente para agregarla al primer modelo
+
+### Nueva función de costo
+<img width="1043" alt="image" src="https://user-images.githubusercontent.com/71990312/190834364-15d5ac28-6cb1-43ec-84bf-682025a8711c.png">
+
+### Nuevo entrenamiento
+<img width="1021" alt="image" src="https://user-images.githubusercontent.com/71990312/190834381-1a8474c0-de26-4f7e-b6a4-173f44a60499.png">
+
+### Nuevos errores 
+<img width="940" alt="image" src="https://user-images.githubusercontent.com/71990312/190834390-e073ad28-256b-423e-aa1a-2a2bf49d5f43.png">
+Podemos ver como los errores aumentaron
+
+### Nueva efectividad
+<img width="889" alt="image" src="https://user-images.githubusercontent.com/71990312/190834399-2d26f853-8881-41f6-a76a-cc6a842b8048.png">
+
+### Nueva gráfica de matriz de confusión
+<img width="537" alt="image" src="https://user-images.githubusercontent.com/71990312/190834412-374c2706-6310-4c26-b632-262ff734a993.png">
+
+Podemos ver que el resultado es casi similar al del modelo anterior pero empeora ligeramente
+
+<img width="572" alt="image" src="https://user-images.githubusercontent.com/71990312/190834445-01c39b56-9c65-4c66-b55b-0a7bd15a2696.png">
+
+Ese rendimiento menor también lo podemos visualizar en el sesgo y la varianza
+
+# Conclusión final
+
+El modelo no mejoró por lo que nos podemos quedar con el primer modelo y asumir que el agregar nuevas variables no mejorará nuestro modelo
+
+
